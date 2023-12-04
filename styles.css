@@ -1,19 +1,39 @@
 .holder{
-	background: red;
-	border: 5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.item{
+	background: green;
+	border: 5px solid white;
 	width: 15%;
-	height: auto;
-	 
+	height: 90px;
+	}
+.item1{
+	background: red;
+	border: 5px solid white;
+	width: 15%;
+	height: 90px;
 	
 }
-.one{
-	font-size: 50px;
-	margin-bottom: 40px;
+.item2{
+	background: blue;
+	border: 5px solid white;
+	width: 15%;
+	height: 90px;
+}
 
 
 
 
 
+
+
+text{
+	 text-align: left;
+	 font-size: 40px;
+}
 
 
 
